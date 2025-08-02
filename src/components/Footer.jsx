@@ -65,6 +65,7 @@ const Footer = () => {
       <div className="text-center text-sm text-gray-400 mt-10 border-t pt-4 border-gray-700">
         © {new Date().getFullYear()} <a href="https://4bigha.com" className="hover:text-blue-300 font-semibold">NavIndia.com</a>. All Rights Reserved.
       </div>
+      <h2 className='text-center text-sm'>designed by -- Bigdesign software technologies</h2>
     </footer>
   );
 };

@@ -5,6 +5,6 @@ import './index.css';          // ✅ Global CSS import
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />                    // 👈 Ye line missing thi!
+    <App />                  
   </React.StrictMode>
 );
