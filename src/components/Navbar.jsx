@@ -15,7 +15,7 @@ const Navbar = () => {
 </h1>
 
           {/* Navigation Links — pushed to the right */}
-          <ul className="list-none flex space-x-6 text-gray-700 font-sm ml-7">
+          <ul className="list-none flex space-x-6 text-gray-700 font-sm ml-3">
             <li><a href="#Header" className="hover:text-blue-600 transition"><u><b>Home</b></u></a></li>
             <li><a href="#About" className="hover:text-blue-600 transition"><u><b>About</b></u></a></li>
             <li><a href="#contact" className="hover:text-blue-600 transition"><u><b>Hospitality</b></u></a></li>
