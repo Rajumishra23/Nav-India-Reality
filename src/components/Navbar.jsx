@@ -9,13 +9,13 @@ const Navbar = () => {
       <nav className="fixed top-0 left-0 w-full z-50 bg-white shadow">
         <div className="max-w-9xl mx-auto flex items-center px-6 md:px-20 lg:px-32 py-2">
           {/* ✅ Stylish Logo */}
-         <h1 className="text-2xl justify-start text-left font-extrabold text-blue-700 tracking-tight ml-auto">
+         <h1 className="text-2xl  font-extrabold text-blue-700 tracking-tight ml-0">
   NAV<span className="text-pink-600">INDIA</span>
   <span className="block text-xs text-gray-500 tracking-widest"><u>REALITY</u></span>
 </h1>
 
           {/* Navigation Links — pushed to the right */}
-          <ul className="list-none flex space-x-6 text-gray-700 font-sm ml-auto">
+          <ul className="list-none flex space-x-6 text-gray-700 font-sm ml-7">
             <li><a href="#Header" className="hover:text-blue-600 transition"><u><b>Home</b></u></a></li>
             <li><a href="#About" className="hover:text-blue-600 transition"><u><b>About</b></u></a></li>
             <li><a href="#contact" className="hover:text-blue-600 transition"><u><b>Hospitality</b></u></a></li>
