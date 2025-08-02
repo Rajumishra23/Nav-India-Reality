@@ -7,7 +7,7 @@ const Navbar = () => {
     <>
       {/* Navbar */}
       <nav className="fixed top-0 left-0 w-full z-50 bg-white shadow">
-        <div className="max-w-7xl mx-auto flex items-center px-4 md:px-20 lg:px-32 py-4">
+        <div className="max-w-9xl mx-auto flex items-center px-8 md:px-20 lg:px-32 py-2">
           {/* ✅ Stylish Logo */}
           <h1 className="text-xl font-extrabold text-blue-700 tracking-tight mr-auto">
             NAV<span className="text-pink-600">INDIA</span>
@@ -30,7 +30,7 @@ const Navbar = () => {
         </div>
       </nav>
 
-    <div className="pt-20 flex items-center gap-4 px-4">
+    <div className="pt-20 flex items-center gap-8 px-4">
   
   {/* 📸 Static Left Image */}
   <img
