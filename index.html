@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NavIndia-Reality- Raju</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./src/index.css" />
+  </head>
+
+  <body>
+    <!-- ✅ Move this inside body -->
+    <div class="relative w-[300px] h-[200px] overflow-hidden">
+      <div class="absolute top-0 left-0 w-full h-full animate-slideLeft">
+        <img src="frontImage.png" class="w-[300px] h-[200px] object-cover" />
+      </div>
+
+      <div class="absolute top-0 left-0 w-full h-full animate-slideLeft delay-[1000ms]">
+        <img src="front1Image.png" class="w-[300px] h-[200px] object-cover" />
+      </div>
+    </div>
+
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
