@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <>
       {/* Navbar */}
-      <nav className="fixed top-0 left-0 w-full z-50 bg-white shadow">
+      <nav className="fixed top-0 left-0 w-full z-50 bg-white-500 shadow">
   <div className="flex justify-between items-center max-w-screen-xl mx-auto px-6 py-3">
     
     {/* ✅ Stylish Logo */}
@@ -22,12 +22,12 @@ const Navbar = () => {
     {/* ✅ Navigation + CTA Button */}
     <div className="flex items-center gap-6">
       <ul className="flex gap-6 text-gray-700 font-semibold">
-        <li><a href="#Header" className="hover:text-blue-600 transition"><u><b>Home</b></u></a></li>
-        <li><a href="#About" className="hover:text-blue-600 transition"><u><b>About</b></u></a></li>
-        <li><a href="#contact" className="hover:text-blue-600 transition"><u><b>Hospitality</b></u></a></li>
-        <li><a href="#retail" className="hover:text-blue-600 transition"><u><b>Retail</b></u></a></li>
-        <li><a href="#F&BBrands" className="hover:text-blue-600 transition"><u><b>F&B Brands</b></u></a></li>
-        <li><a href="#jointventure" className="hover:text-blue-600 transition"><u><b>Joint Venture</b></u></a></li>
+        <li><a href="#Header" className="hover:text-blue-600 transition"><b>Home</b></a></li>
+        <li><a href="#About" className="hover:text-blue-600 transition"><b>About</b></a></li>
+        <li><a href="#contact" className="hover:text-blue-600 transition"><b>Hospitality</b></a></li>
+        <li><a href="#retail" className="hover:text-blue-600 transition"><b>Retail</b></a></li>
+        <li><a href="#F&BBrands" className="hover:text-blue-600 transition"><b>F&B Brands</b></a></li>
+        <li><a href="#jointventure" className="hover:text-blue-600 transition"><b>Joint Venture</b></a></li>
       </ul>
 
       {/* CTA Button */}
@@ -39,22 +39,13 @@ const Navbar = () => {
 </nav>
 
       {/* 🖼️ Hero Section */}
-      <div className="pt-20 flex flex-col md:flex-row items-center gap-8 px-4">
+      <div className="pt-20 bg-yellow-50 flex flex-col md:flex-row items-center gap-8 px-4">
         {/* 📸 Static Left Image */}
         <img
           src={front1Image}
           alt="Mall front View"
-          className="w-full h-full object-cover rounded shadow-md"
-        />
-
-        {/* 📸 Sliding Right Image */}
-        <div className="w-full h-full overflow-hidden rounded shadow-md animate-slideRight">
-          <img
-            src={frontImage}
-            alt="Mall front1 View"
-            className="w-full h-full object-cover"
-          />
-        </div>
+          className="w-full h-full object-cover rounded shadow-md"    />
+          
       </div>
     </>
   );

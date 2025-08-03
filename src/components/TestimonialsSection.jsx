@@ -10,7 +10,7 @@ const testimonials = [
   {
     name: "Sneha Verma",
     title: "Hospitality Lead, LuxeStay",
-    image: "/client2.png",
+    image: "/girl.png",
     review: "Their design approach and responsiveness helped us attract premium clients seamlessly."
   },
   {
@@ -23,7 +23,7 @@ const testimonials = [
 
 function TestimonialsSection() {
   return (
-    <section className="bg-white py-16">
+    <section className="bg-yellow-50 py-16">
       <div className="max-w-6xl mx-auto px-6 text-center">
         <h2 className="text-4xl font-bold text-indigo-700 mb-10">What Our Clients Say</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
