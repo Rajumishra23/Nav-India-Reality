@@ -3,7 +3,7 @@ import frontImage from "../assets/frontImage.png"; // ✅ Update the path if nee
 
 const About = () => {
   return (
-    <section className="py-16 px-10 md:px-20 bg-white" id="about">
+    <section className="py-16 px-10 md:px-20 bg-yellow-50" id="about">
       <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         
         {/* Text Content */}

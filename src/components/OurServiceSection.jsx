@@ -25,7 +25,7 @@ const services = [
 
 export default function OurServicesSection() {
   return (
-    <section className="bg-gray-50 py-16" id="services">
+    <section className="bg-yellow-50 py-16" id="services">
       <div className="max-w-6xl mx-auto px-6 text-center">
         <h2 className="text-4xl font-bold text-indigo-700 mb-4">Our Services</h2>
         <p className="text-gray-600 mb-10">We deliver scalable solutions tailored to hospitality, real estate, and retail sectors.</p>

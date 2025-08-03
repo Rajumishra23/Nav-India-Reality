@@ -2,30 +2,74 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <section id="contact" className="bg-white py-10 px-6 md:px-20 lg:px-32">
-      <div className="max-w-xl mx-auto">
-        <h2 className="text-3xl font-bold text-blue-700 mb-6 text-center"><b><u>Contact us for our Retail Advisory</u></b></h2>
+    <section id="contact" className="relative  bg-yellow-50 py-16 px-6 md:px-12 lg:px-24">
+      
+      {/* Background Layer */}
+      <div className="absolute inset-0 bg-[url('/city-blur.jpg')] bg-cover bg-center opacity-20 z-0"></div>
 
-        <form className="space-y-6">
-          <div>
-            <label htmlFor="name" className="block text-sm font-medium text-gray-700">Name</label>
-            <input type="text" id="name" className="mt-1 block w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500" />
-          </div>
+      {/* Main Layer */}
+      <div className="relative z-10 max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 
-          <div>
-            <label htmlFor="email" className="block text-sm font-medium text-gray-700">Email</label>
-            <input type="email" id="email" className="mt-1 block w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500" />
-          </div>
+        {/* Left Side - Building Image */}
+        <div className="w-full h-full overflow-hidden rounded shadow-md animate-slideLeft">
+          <img
+            src="/building.png"
+            alt="Modern Building"
+            className="w-full h-full object-cover"
+          />
+        </div>
 
-          <div>
-            <label htmlFor="message" className="block text-sm font-medium text-gray-700">Message</label>
-            <textarea id="message" rows="5" className="mt-1 block w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
-          </div>
+        {/* Right Side - Contact Form */}
+        <div className="bg-green bg-opacity-90 p-6 rounded-lg shadow-lg animate-slideLeft">
+          <h1 className="text-lg font-semibold mb-2">Quick Enquiry.</h1>
+          <h2 className="text-4xl font-bold text-blue-700 mb-6">Want more Information?</h2>
 
-          <button type="submit" className="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 transition w-full">
-            Send Message
-          </button>
-        </form>
+          <form className="space-y-6 ">
+            {/* Name */}
+            <div>
+              <input
+                type="text"
+                placeholder="Your Name"
+                className="w-full border border-gray-300 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              />
+            </div>
+
+            {/* Phone */}
+            <div>
+              <input
+                type="tel"
+                placeholder="Phone Number"
+                className="w-full border border-gray-300 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              />
+            </div>
+
+            {/* Email */}
+            <div>
+              <input
+                type="email"
+                placeholder="Your Email"
+                className="w-full border border-gray-300 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              />
+            </div>
+
+            {/* Service */}
+            <div>
+              <input
+                type="text"
+                placeholder="Our Service"
+                className="w-full border border-gray-300 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              />
+            </div>
+
+            {/* Button */}
+            <button
+              type="submit"
+              className="bg-blue-600 text-white px-6 py-3 rounded-md hover:bg-red-700 transition w-full"
+            >
+              📞 Get a Call Back
+            </button>
+          </form>
+        </div>
       </div>
     </section>
   );

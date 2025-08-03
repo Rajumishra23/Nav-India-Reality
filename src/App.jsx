@@ -6,6 +6,7 @@ import Footer from './components/Footer'; // Assuming you have a Footer componen
 import StatsSection from "./components/StatsSection";
 import TestimonialsSection from './components/TestimonialsSection';
 import OurServicesSection from './components/OurServiceSection';
+import NewsBlogSection from    './components/NewsBlogSection';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <StatsSection/>
       <TestimonialsSection/>
       <OurServicesSection/>
+      <NewsBlogSection/>
      <Contact/>
      <Footer/>
     </div>
