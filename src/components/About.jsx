@@ -1,5 +1,5 @@
 import React from "react";
-import frontImage from "../assets/frontImage.png"; // ✅ Update the path if needed
+import mall from "../assets/mall.png"; // ✅ Update the path if needed
 
 const About = () => {
   return (
@@ -20,7 +20,7 @@ const About = () => {
        {/* Image Content with Animation */}
 <div className="w-full h-full overflow-hidden rounded shadow-md animate-slideLeft order-1 md:order-none">
   <img
-    src={frontImage}
+    src={mall}
     alt="Mall front1 View"
     className="w-full h-full object-cover"
   />
