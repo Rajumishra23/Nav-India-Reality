@@ -1,6 +1,11 @@
 import React from 'react';
 import front1Image from '../assets/front1Image.png';
 import mall from '../assets/mall.png';
+import retail from '../assets/retail.png';
+import resturent from '../assets/resturent.png';
+import fbbrands from '../assets/fbbrands.png';
+import joint from '../assets/joint.png';
+
 import { FaPhoneAlt, FaUser } from 'react-icons/fa';
 import { FiSearch } from 'react-icons/fi';
 import { FaTwitter, FaFacebookF, FaLinkedinIn } from 'react-icons/fa';
@@ -84,13 +89,22 @@ const Navbar = () => {
             <img
               src={front1Image}
               alt="Mall front View"
+              className="w-full h-auto max-h-[1000px] object-cover rounded shadow-lg"
+            />
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <img
+              src={retail}
+              alt="Retail View"
               className="w-full h-auto max-h-[500px] object-cover rounded shadow-lg"
             />
           </SwiperSlide>
+
           <SwiperSlide>
             <img
-              src={mall}
-              alt="Mall front View"
+              src={resturent}
+              alt="Restaurant View"
               className="w-full h-auto max-h-[500px] object-cover rounded shadow-lg"
             />
           </SwiperSlide>
