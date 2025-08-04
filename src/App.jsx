@@ -8,6 +8,7 @@ import TestimonialsSection from './components/TestimonialsSection';
 import OurServicesSection from './components/OurServiceSection';
 import NewsBlogSection from './components/NewsBlogSection';
 import Retail from './components/Retail';
+import FBBrands from './components/FBBrands';
 
 import JointVenture from './components/JointVenture';
 
@@ -20,6 +21,7 @@ const App = () => {
       <TestimonialsSection />
       <OurServicesSection />
       <Retail />
+      <FBBrands/>
       <JointVenture />
       <NewsBlogSection />
       <Contact />
