@@ -15,7 +15,7 @@ const Contact = () => {
           <img
             src="/building.png"
             alt="Modern Building"
-            className="w-full h-full object-cover"
+            className="w-[1500px] h-full object-cover"
           />
         </div>
 

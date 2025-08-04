@@ -9,7 +9,7 @@ const services = [
   },
   {
     title: "Hospitality Brand Deployment",
-    image: "hospital.png",
+    image: "hotel.png",
     description:
       "13+ hospitality brand integrations across premium properties. From UI design to deployment and performance monitoring."
   },

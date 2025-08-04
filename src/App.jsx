@@ -9,23 +9,25 @@ import OurServicesSection from './components/OurServiceSection';
 import NewsBlogSection from './components/NewsBlogSection';
 import Retail from './components/Retail';
 import FBBrands from './components/FBBrands';
-
 import JointVenture from './components/JointVenture';
 
 const App = () => {
   return (
-    <div className="w-full overflow-hidden">
+    <div className="flex flex-col min-h-screen w-full overflow-hidden">
       <Navbar />
-      <About />
-      <StatsSection />
-      <TestimonialsSection />
-      <OurServicesSection />
-      <Retail />
-      <FBBrands/>
-      <JointVenture />
-      <NewsBlogSection />
-      <Contact />
+      {/* All main sections */}
+      <main className="flex-grow">
+        <About />
+        <StatsSection />
+        <TestimonialsSection />
+        <OurServicesSection />
+        <Retail />
+        <FBBrands />
+        <JointVenture />
+        <NewsBlogSection />
+        <Contact />
       <Footer />
+      </main>
     </div>
   );
 };
