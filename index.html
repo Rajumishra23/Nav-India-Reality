@@ -5,50 +5,27 @@
     <link rel="icon" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NavIndia-Reality - Raju</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+    <!-- ✅ Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+
+    <!-- ✅ Font Awesome for social icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-pO2eH+z2eQa5+G8sKzNnKMkTPv5w2AAjNwD3O6N6k1D4vNNxV4HwFVx0Tf3ibT4lZl5NLAG0k43Yovax8QD1Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- ✅ Your custom CSS -->
     <link rel="stylesheet" href="./src/index.css" />
-    <style>
-      html {
-        scroll-behavior: smooth;
-      }
-
-      @keyframes slideLeft {
-        0% {
-          transform: translateX(100%);
-          opacity: 0;
-        }
-        100% {
-          transform: translateX(0);
-          opacity: 1;
-        }
-      }
-
-      #header {
-        transform: translateX(100%);
-        opacity: 0;
-        animation: slideLeft 1s ease forwards;
-      }
-    </style>
   </head>
 
-  <body class="bg-white text-gray-800 m-0 p-0">
-    <!-- 🌟 Sticky Header/Navbar with slide-in animation -->
-    <header class="sticky top-0 bg-white shadow-md z-50">
-      <nav id="header" class="max-w-7xl mx-auto flex justify-between items-center px-4 py-3">
-        <h1 class="text-xl font-semibold text-gray-900">NavIndia Reality</h1>
-        <ul class="flex gap-6 text-gray-700 font-medium">
-          <li><a href="#header" class="hover:text-blue-600 transition-colors duration-200">Home</a></li>
-          <li><a href="#about" class="hover:text-blue-600 transition-colors duration-200">About</a></li>
-          <li><a href="#hospitality" class="hover:text-blue-600 transition-colors duration-200">Hospitality</a></li>
-          <li><a href="#retail" class="hover:text-blue-600 transition-colors duration-200">Retail</a></li>
-          <li><a href="#fnbbrands" class="hover:text-blue-600 transition-colors duration-200">F&B Brands</a></li>
-          <li><a href="#jointventure" class="hover:text-blue-600 transition-colors duration-200">Joint Venture</a></li>
-        </ul>
-      </nav>
-    </header>
-
-
+  <body class="bg-white text-gray-900">
+    <!-- ✅ Root div where React will render -->
     <div id="root"></div>
+
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
