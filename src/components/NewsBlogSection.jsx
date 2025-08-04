@@ -81,33 +81,12 @@ const NewsBlogSection = () => {
             </div>
           </div>
 
-          <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition">
-  <img
-    src={frontImage}
-
-
-    alt="Future of Retail Architecture"
-    className="w-full h-48 object-cover"
-  />
-  <div className="p-4">
-    <h2 className="text-lg font-semibold text-gray-800">Future of Retail Architecture</h2>
-    <p className="text-gray-600 mt-2 text-sm">
-      How modern malls are embracing sustainability, automation, and design innovation.
-    </p>
-    <a
-      href="https://www.forbes.com/sites/forbesbusinesscouncil/2023/12/19/the-future-of-shopping-malls-in-the-digital-age/"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="text-blue-500 hover:underline inline-block mt-3 text-sm"
-    >
-      Read more
-    </a>
-  </div>
+        
+  
 </div>
 
 
         </div>
-      </div>
     </section>
   );
 };

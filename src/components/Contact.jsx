@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <section id="contact" className="relative  bg-yellow-50 py-16 px-6 md:px-12 lg:px-24">
+    <section id="contact" className="relative  bg-blue-200 py-16 px-6 md:px-12 lg:px-24">
       
       {/* Background Layer */}
       <div className="absolute inset-0 bg-[url('/city-blur.jpg')] bg-cover bg-center opacity-20 z-0"></div>
