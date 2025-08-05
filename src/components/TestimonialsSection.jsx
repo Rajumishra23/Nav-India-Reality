@@ -4,7 +4,7 @@ const testimonials = [
   {
     name: "Amit Sharma",
     title: "Retail Head, Orbit Malls",
-    image: "/client1.png", // Local image path or external URL
+    image: "/client1.png",
     review: "NavIndia’s team helped us optimize our leasing strategy. The turnaround was faster than we imagined!"
   },
   {
@@ -33,13 +33,15 @@ function TestimonialsSection() {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: idx * 0.3 }}
-              className="bg-gray-50 shadow-lg rounded-xl p-6"
+              whileHover={{ scale: 1.05 }} // Added hover scale
+              className="bg-white shadow-lg rounded-xl p-6 cursor-pointer transition-transform duration-300"
             >
-              <img
+              <motion.img
                 src={person.image}
                 alt={person.name}
-                className="w-16 h-16 mx-auto rounded-full object-cover mb-4"
-                
+                className="w-20 h-20 mx-auto rounded-full object-cover mb-4 border-2 border-indigo-500"
+                whileHover={{ rotate: 5 }} // slight rotation on hover
+                transition={{ type: "spring", stiffness: 300 }}
               />
               <h3 className="text-xl font-semibold text-gray-800">{person.name}</h3>
               <p className="text-sm text-gray-500 mb-3">{person.title}</p>
