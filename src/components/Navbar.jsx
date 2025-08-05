@@ -1,5 +1,4 @@
 import React from 'react';
-import front1Image from '../assets/front1Image.png';
 import mall from '../assets/mall.png';
 import retail from '../assets/retail.png';
 import resturent from '../assets/resturent.png';
@@ -87,15 +86,15 @@ const Navbar = () => {
         >
           <SwiperSlide>
             <img
-              src={front1Image}
+              src='realestae.png'
               alt="Mall front View"
-              className="w-full h-auto max-h-[1000px] object-cover rounded shadow-lg"
+              className="w-full h-auto max-h-[500px] object-cover rounded shadow-lg"
             />
           </SwiperSlide>
 
           <SwiperSlide>
             <img
-              src={retail}
+              src='pop.png'
               alt="Retail View"
               className="w-full h-auto max-h-[500px] object-cover rounded shadow-lg"
             />
