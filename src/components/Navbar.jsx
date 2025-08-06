@@ -86,11 +86,14 @@ const Navbar = () => {
                 Testimonials<br /><span className="block text-xs font-normal">Happy Clients</span>
               </Link>
             </li>
-            <li className="text-center">
-              <Link to="/Contact" className="hover:text-yellow-800">
-                Contact<br /><span className="block text-xs font-normal">Connect</span>
-              </Link>
-            </li>
+           <li className="text-center">
+  <Link
+  to="/Contact"
+  className="inline-block bg-yellow-600 text-white px-1.5 py-0.5 rounded-sm text-xs font-medium hover:bg-yellow-700 transition"
+>
+  Contact
+</Link>
+</li>
           </ul>
         </div>
       </nav>
