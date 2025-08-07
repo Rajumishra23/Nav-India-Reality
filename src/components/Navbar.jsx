@@ -83,7 +83,7 @@ const Navbar = () => {
             </li>
             <li className="text-center">
               <Link to="/testimonials" className="hover:text-yellow-800">
-                Testimonials<br /><span className="block text-xs font-normal">Happy Clients</span>
+                testimonials<br /><span className="block text-xs font-normal">Happy Clients</span>
               </Link>
             </li>
            <li className="text-center">
